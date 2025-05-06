@@ -16,7 +16,7 @@ public class Corridore extends Thread{
             try {
                 Thread.sleep((int)(Math.random() * 300));
             } catch (Exception e) {}
-            System.out.println(this.getNome() + " metri: " + i);
+            System.out.println(this.getNome() + "| Metri: " + i);
 
             if (i == 100) {
                 System.out.println(this.getNome() + " ha raggiunto il traguardo");
